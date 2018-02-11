@@ -5,7 +5,8 @@ package bridge;
  */
 public class Client {
     public static void main(String[] args) {
-        Shoe2 shoe2=new BasketBall2(new Anta());
+        Shoe2 shoe2=new BasketBall2(new UA());
         shoe2.sale();
+
     }
 }
