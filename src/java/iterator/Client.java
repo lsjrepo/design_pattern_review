@@ -16,7 +16,6 @@ public class Client {
         while(iterator.hasNext()){
             System.out.println(iterator.getCurrentObj());
             iterator.next();
-
         }
     }
 }
