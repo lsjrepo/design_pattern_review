@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by lusaijie on 2018/2/15.
  */
-public class Subject {
+public abstract class Subject {
     private List<Observer> list=new ArrayList<>();
     public void register(Observer observer){
         list.add(observer);
